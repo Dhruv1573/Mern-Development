@@ -4,7 +4,7 @@ const app=express();
 const port=8000;
 
 app.get("/",(req,res)=>{
-    return res.send("Home Page");
+    return res.send("Hello Page");
 });
 app.listen(port,()=>{
     console.log("Server is Up and Running");
